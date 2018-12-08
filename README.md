@@ -76,7 +76,6 @@ The full example of the popup menu program can be found [here](https://github.co
 
 
 ### Referencs
-
 https://developer.android.com/reference/android/widget/PopupMenu
 
 https://www.tutlane.com/tutorial/android/android-popup-menu-with-examples
