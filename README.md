@@ -35,7 +35,7 @@ The PopUpMenu makes use of a interfaces, constructors and methods. Here are a li
 - Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listener) - Sets a listener that will be notified when the     user selects an item from the menu
 - Public void show() - show the menu popup anchored to the view specified during construction.
 
-### Methods Use In My Project
+#### Methods Use In My Project
 
 - setOnClickListener(new View.OnClickListener())
 - PopupMenu(Context context, View anchor)
@@ -65,12 +65,12 @@ Step 5: Create an onMenuItemClick method to implement the individual menu items
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step4.PNG)
 
 
-### Code
-A sample code of the program can be found [here](https://github.com/dchristie75/CENG319/tree/master/code)
-
-
 ### Example Program
 The full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopUpMenu_Example)
+
+
+### Code
+A sample code of the program can be found [here](https://github.com/dchristie75/CENG319/tree/master/code)
 
 
 ### Referencs
