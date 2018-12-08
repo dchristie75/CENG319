@@ -10,7 +10,6 @@ A PopupMenu displays a menu in a modal popup window that is anchored to a partic
 An exam of a Popup Menu
 ![](https://github.com/dchristie75/CENG319/images/master/images/popupmenu.png)
 
-
 ### HISTORY 
 The PopUpMenu was introduced in with API level 11 (Android 3.0). But if you are using above Android 3.0 the Popup Menu does not support any item shortcuts and item icons in the menu. The PopUpMenu originates from the class: android.widget.PopupMenu which is the direct subclass of the java.lang.Object class.
 
@@ -38,7 +37,6 @@ Public void show() - show the menu popup anchored to the view specified during c
 ### How create the PopUpMenu
 
 Step 1: Create a new folder menu inside of your project resource directory
-
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step1.PNG)
 
 Step 2: Add a new XML file in the menu directoy to build the menu
@@ -56,6 +54,12 @@ Step 4: In your main activity implement the showPopup method to instantiate the 
 Step 5: Handle Android Popup Menu Click Events by implementing the PopupMenu.OnMenuItemClickListener interface and register it with your PopupMenu by calling setOnMenuItemclickListener().
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step5.PNG)
+
+### Code
+A sample code of the program can be found [here]()
+
+### Example Program
+A full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopUpMenu_Example)
 
 ### Referencs
 
