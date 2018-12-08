@@ -66,7 +66,7 @@ Step 5: Create an onMenuItemClick method to implement the individual menu items
 
 
 ### Example Program
-The full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopUpMenu_Example)
+The full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopupMenu_Example)
 
 
 ### Code
