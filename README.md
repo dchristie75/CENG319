@@ -63,13 +63,13 @@ Step 3: Create a view element to anchored the menu
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step3.PNG)
 
-Step 4: In your main activity implement the showPopup method to instantiate the Popup constructor and use MenuInflater to load the               defined menu resource using the MenuInflater.inflate() method 
+Step 4: In your main activity implement the showPopup method to instantiate the Popup constructor and use MenuInflater to load the               defined menu resource using the MenuInflater.inflate() method. Handle Android Popup Menu Click Events by implementing the               PopupMenu.OnMenuItemClickListener interface and register it with your PopupMenu by calling setOnMenuItemclickListener().
+
+![](https://github.com/dchristie75/CENG319/blob/master/images/step5.PNG)  
+
+Step 5: Create an onMenuItemClick method to implement the individual menu items 
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step4.PNG)
-
-Step 5: Handle Android Popup Menu Click Events by implementing the PopupMenu.OnMenuItemClickListener interface and register it with your         PopupMenu by calling setOnMenuItemclickListener().
-
-![](https://github.com/dchristie75/CENG319/blob/master/images/step5.PNG)
 
 
 ### Code
