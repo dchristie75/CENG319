@@ -2,12 +2,10 @@ PopUpMenu
 ===============
 
 ### INTRODUCTION
-All modern mobile apps often need to provide users with the ability to display or execute secondary content or actions that are related to a specific activity. The most common actions for an activity usually reside on the default Action Bar, but actions that are more specific to an item or element can be displayed contextually using PopUpMenus. This tutorial covers how to create and manage popup menus within you android application. 
+All modern mobile applications often need to provide users with the ability to display or execute secondary content that are related to a specific activity. In android apps, the most common actions for an activity usually reside on the default Action Bar, but actions that are more specific to an item or element can be displayed contextually using pop up menus. This tutorial provides a guide on how to create and manage popup menus within you android application. 
 
 #### Major Purpose
-A PopupMenu displays a menu in a modal popup window that is anchored to a particular View within an activity. It generally contains subsidiary information or allows for secondary actions on an item. It commonly provides an overflow style menu for actions that are related to specific content, for example, triggering a reply to a message. When selected, the popup menu will appear below the anchor view if there is room, or above it if there is no space. Touching outside of the popup will dismiss it. Below is a visual representation of the PopupMenu.
-
-An exam of a Popup Menu
+A PopupMenu displays a menu in a modal popup window that is anchored to a particular View within an activity. It generally contains subsidiary information relating to an item or allows for secondary actions on an item. It commonly provides an overflow style menu for actions that are related to specific content, for example, triggering a reply to a message. When selected, the popup menu will appear below the anchor view if there is room, or above it if there is no space. Touching outside of the popup will dismiss it. Listed below is a visual representation of a typical popup menu.
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/popup_menu.PNG)
 
@@ -15,8 +13,8 @@ An exam of a Popup Menu
 ### HISTORY 
 The PopUpMenu was introduced in with API level 11 (Android 3.0). But if you are using above Android 3.0 the Popup Menu does not support any item shortcuts and item icons in the menu. The PopUpMenu originates from the class: android.widget.PopupMenu which is the direct subclass of the java.lang.Object class.
 
-#### Major Methods/Attributes
-The PopUpMenu makes use of a few constructors and methods. Here are a list of them and their uses: 
+#### Major Methods and Attributes
+The PopUpMenu makes use of a interfaces, constructors and methods. Here are a list of the constructos and methods and their uses: 
 
 ##### Public Constructors
 - PopupMenu(Context context, View anchor) - Constructor to create a new popup menu with an anchor view.
@@ -77,5 +75,6 @@ The full example of the popup menu program can be found [here](https://github.co
 
 ### Referencs
 https://developer.android.com/reference/android/widget/PopupMenu
+
 https://www.tutlane.com/tutorial/android/android-popup-menu-with-examples
 
