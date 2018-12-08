@@ -18,24 +18,27 @@ The PopUpMenu was introduced in with API level 11 (Android 3.0). But if you are 
 The PopUpMenu makes use of a few constructors and methods. Here are a list of them and their uses: 
 
 ##### Public Constructors
-PopupMenu(Context context, View anchor) - Constructor to create a new popup menu with an anchor view.
+- PopupMenu(Context context, View anchor) - Constructor to create a new popup menu with an anchor view.
 
-PopupMenu(Context context, View anchor, int gravity) - Constructor to create a new popup menu with an anchor view and alignment gravity
+- PopupMenu(Context context, View anchor, int gravity) - Constructor to create a new popup menu with an anchor view and alignment gravity
 
-PopupMenu(Context context, View anchor, int gravity, int popupStyleAttr, int popupStyleRes) - Constructor a create a new popup menu with 
+- PopupMenu(Context context, View anchor, int gravity, int popupStyleAttr, int popupStyleRes) - Constructor a create a new popup menu with 
 a specific style
 
 #### Public Methods
-Public void dismiss() – used to dismiss the menu popup
-Public int getGravity() - used to align the popup window to its anchor view
-Public View.OnTouchListener getDragToOpenListener() - Returns an View.OnTouchListener that can be added to the anchor view to implement                                                       drag-to-open behavior
-Public Menu getMenu() – returns the Menu associated with this popup
-Public MenuInflater getMenuInflater() - a MenuInflater that can be used to inflate menu items from XML into the menu returned by                                                 getMenu()
-Public void inflate(int menuRes) - Inflate a menu resource into this PopupMenu
-Public void setGravity(int gravity) - Sets the gravity used to align the popup window to its anchor view
-Public void setOnDismissListener(PopupMenu.OnDismissListener listener) - sets a listener that will be notified when this menu is                                                                                  dismissed
-Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listener) - Sets a listener that will be notified when the user                                                                                      selects an item from the menu
-Public void show() - show the menu popup anchored to the view specified during construction.
+- Public void dismiss() – used to dismiss the menu popup
+
+- Public int getGravity() - used to align the popup window to its anchor view
+
+- Public View.OnTouchListener getDragToOpenListener() - Returns an View.OnTouchListener that can be added to the anchor view to implement                                                       drag-to-open behavior
+
+- Public Menu getMenu() – returns the Menu associated with this popup
+- Public MenuInflater getMenuInflater() - a MenuInflater that can be used to inflate menu items from XML into the menu returned by                                                 getMenu()
+- Public void inflate(int menuRes) - Inflate a menu resource into this PopupMenu
+- Public void setGravity(int gravity) - Sets the gravity used to align the popup window to its anchor view
+- Public void setOnDismissListener(PopupMenu.OnDismissListener listener) - sets a listener that will be notified when this menu is dismissed
+- Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listener) - Sets a listener that will be notified when the user                                                                                      selects an item from the menu
+- Public void show() - show the menu popup anchored to the view specified during construction.
 
 
 ### How create the PopUpMenu
