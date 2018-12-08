@@ -47,6 +47,7 @@ The PopUpMenu makes use of a few constructors and methods. Here are a list of th
 ### How create the PopUpMenu
 
 Step 1: Create a new folder menu inside of your project resource directory 
+
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step1.PNG)
 
 Step 2: Add a new XML file in the menu directoy to build the menu 
@@ -58,6 +59,7 @@ Step 3: Create a view element to anchored the menu
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step3.PNG)
 
 Step 4: In your main activity implement the showPopup method to instantiate the Popup constructor and use MenuInflater to load the               defined menu resource using the MenuInflater.inflate() method. Handle Android Popup Menu Click Events by implementing the               PopupMenu.OnMenuItemClickListener interface and register it with your PopupMenu by calling setOnMenuItemclickListener().
+
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step5.PNG)  
 
 Step 5: Create an onMenuItemClick method to implement the individual menu items 
