@@ -77,7 +77,7 @@ A sample code of the program can be found [here](https://github.com/dchristie75/
 
 
 ### Example Program
-A full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopUpMenu_Example)
+The full example of the popup menu program can be found [here](https://github.com/dchristie75/CENG319/tree/master/PopUpMenu_Example)
 
 
 ### Referencs
