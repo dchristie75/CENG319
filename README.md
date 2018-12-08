@@ -30,15 +30,23 @@ a specific style
 
 - Public int getGravity() - used to align the popup window to its anchor view
 
-- Public View.OnTouchListener getDragToOpenListener() - Returns an View.OnTouchListener that can be added to the anchor view to implement                                                       drag-to-open behavior
+- Public View.OnTouchListener getDragToOpenListener() - Returns an View.OnTouchListener that can be added to the anchor view to           implement drag-to-open behavior
 
 - Public Menu getMenu() – returns the Menu associated with this popup
 - Public MenuInflater getMenuInflater() - a MenuInflater that can be used to inflate menu items from XML into the menu returned by                                                 getMenu()
 - Public void inflate(int menuRes) - Inflate a menu resource into this PopupMenu
 - Public void setGravity(int gravity) - Sets the gravity used to align the popup window to its anchor view
-- Public void setOnDismissListener(PopupMenu.OnDismissListener listener) - sets a listener that will be notified when this menu is dismissed
-- Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listener) - Sets a listener that will be notified when the user                                                                                      selects an item from the menu
+- Public void setOnDismissListener(PopupMenu.OnDismissListener listener) - sets a listener that will be notified when this menu is         dismissed
+- Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listener) - Sets a listener that will be notified when the     user selects an item from the menu
 - Public void show() - show the menu popup anchored to the view specified during construction.
+
+### Methods Use In My Project
+
+- setOnClickListener(new View.OnClickListener())
+- PopupMenu(Context context, View anchor)
+- setOnMenuItemClickListener (PopupMenu.OnMenuItemClickListener listener)
+- inflate(int menuRes)
+
 
 
 ### How create the PopUpMenu
@@ -55,17 +63,17 @@ Step 3: Create a view element to anchored the menu
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step3.PNG)
 
-Step 4: In your main activity implement the showPopup method to instantiate the Popup constructor and use MenuInflater to load the defined menu resource using the MenuInflater.inflate() method 
+Step 4: In your main activity implement the showPopup method to instantiate the Popup constructor and use MenuInflater to load the               defined menu resource using the MenuInflater.inflate() method 
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step4.PNG)
 
-Step 5: Handle Android Popup Menu Click Events by implementing the PopupMenu.OnMenuItemClickListener interface and register it with your PopupMenu by calling setOnMenuItemclickListener().
+Step 5: Handle Android Popup Menu Click Events by implementing the PopupMenu.OnMenuItemClickListener interface and register it with your         PopupMenu by calling setOnMenuItemclickListener().
 
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step5.PNG)
 
 
 ### Code
-A sample code of the program can be found [here]()
+A sample code of the program can be found [here](https://github.com/dchristie75/CENG319/tree/master/code)
 
 
 ### Example Program
