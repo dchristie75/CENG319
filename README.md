@@ -36,7 +36,7 @@ Public void setOnMenuItemClickListener(PopupMenu.OnMenuItemClickListener listene
 Public void show() - show the menu popup anchored to the view specified during construction.
 
 ### How create the PopUpMenu
-Step 1: Create a new folder menu inside of your project resource directory (res/menu/) 
+Step 1: Create a new folder menu inside of your project resource directory
 ![](https://github.com/dchristie75/CENG319/blob/master/images/step1.PNG)
 
 Step 2: Add a new XML file in the menu directoy to build the menu
