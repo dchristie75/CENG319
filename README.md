@@ -25,7 +25,7 @@ The PopUpMenu makes use of a few constructors and methods. Here are a list of th
 - PopupMenu(Context context, View anchor, int gravity, int popupStyleAttr, int popupStyleRes) - Constructor a create a new popup menu with 
 a specific style
 
-#### Public Methods
+##### Public Methods
 - Public void dismiss() – used to dismiss the menu popup
 
 - Public int getGravity() - used to align the popup window to its anchor view
@@ -46,7 +46,6 @@ a specific style
 - PopupMenu(Context context, View anchor)
 - setOnMenuItemClickListener (PopupMenu.OnMenuItemClickListener listener)
 - inflate(int menuRes)
-
 
 
 ### How create the PopUpMenu
