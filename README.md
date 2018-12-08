@@ -8,7 +8,8 @@ All modern mobile apps often need to provide users with the ability to display o
 A PopupMenu displays a menu in a modal popup window that is anchored to a particular View within an activity. It generally contains subsidiary information or allows for secondary actions on an item. It commonly provides an overflow style menu for actions that are related to specific content, for example, triggering a reply to a message. When selected, the popup menu will appear below the anchor view if there is room, or above it if there is no space. Touching outside of the popup will dismiss it. Below is a visual representation of the PopupMenu.
 
 An exam of a Popup Menu
-![](https://github.com/dchristie75/CENG319/edit/master/images/popupmenu.png)
+![](https://github.com/dchristie75/CENG319/blob/master/images/popupmenu.png)
+![](https://github.com/dchristie75/SSD1306-Monochrome-OLED/blob/master/images/stackable.jpg)
 
 ### HISTORY 
 The PopUpMenu was introduced in with API level 11 (Android 3.0). But if you are using above Android 3.0 the Popup Menu does not support any item shortcuts and item icons in the menu. The PopUpMenu originates from the class: android.widget.PopupMenu which is the direct subclass of the java.lang.Object class.
