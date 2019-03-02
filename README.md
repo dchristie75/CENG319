@@ -78,3 +78,25 @@ https://developer.android.com/reference/android/widget/PopupMenu
 
 https://www.tutlane.com/tutorial/android/android-menus-options-context-popup
 
+
+
+
+
+
+
+
+
+Midterm review
+========================
+## Quiz qestions
+1. **Which ROM is erasable by applying electrical voltage to each storage cell?**  EEPROM
+2. **Which memory operation is needed only on DRAM?** Refresh cycle
+3. **How many address wires are needed to access memory locations in a 32k x 8 memory?** log<sub>2</sub>(32000) =15
+4. **The L1 cahce** is normally built with SRAM, has limited storage capacity & is typically integrated into the processor chip.
+5. **Cache has three different ways to map the main RAM but not** random associative (only *set associative, fully associative & direct mapped*).
+6. **Which of the following types of RAM can be found in a  modern PC?** SRAM & DRAM
+7. **The system bus consists of all the following except** power bus (contains *control, address & data buses*).
+8. **Generally, microprocessors do not include** instruction decoding (includes *registers, ALU & RAM*). xx
+9. **If the MSB of a signed binary is 1, then the number is** negative.
+10. **ROM is memory** whose data can never be altered by the user.
+
